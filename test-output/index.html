@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\ARUNA\AppData\Local\Temp\testng-eclipse-1995996659\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_customer">add_customer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_customer1">add_customer1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_customer2">add_customer2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_customer3">add_customer3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan">add_traffic_plan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan1">add_traffic_plan1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan2">add_traffic_plan2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan_to_customer">add_traffic_plan_to_customer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan_to_customer1">add_traffic_plan_to_customer1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan_to_customer2">add_traffic_plan_to_customer2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="add_traffic_plan_to_customer3">add_traffic_plan_to_customer3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="adsremove">adsremove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="openguru99_telecom">openguru99_telecom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="pay_billing">pay_billing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="pay_billing1">pay_billing1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="pay_billing2">pay_billing2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testng.Guru99_Telecom" class="method navigator-link" hash-for-method="siteDetails">siteDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.Guru99_Telecom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_customer">
+                  </a> <!-- add_customer -->
+                  <span class="method-name">add_customer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_customer1">
+                  </a> <!-- add_customer1 -->
+                  <span class="method-name">add_customer1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_customer2">
+                  </a> <!-- add_customer2 -->
+                  <span class="method-name">add_customer2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_customer3">
+                  </a> <!-- add_customer3 -->
+                  <span class="method-name">add_customer3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan">
+                  </a> <!-- add_traffic_plan -->
+                  <span class="method-name">add_traffic_plan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan1">
+                  </a> <!-- add_traffic_plan1 -->
+                  <span class="method-name">add_traffic_plan1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan2">
+                  </a> <!-- add_traffic_plan2 -->
+                  <span class="method-name">add_traffic_plan2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan_to_customer">
+                  </a> <!-- add_traffic_plan_to_customer -->
+                  <span class="method-name">add_traffic_plan_to_customer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan_to_customer1">
+                  </a> <!-- add_traffic_plan_to_customer1 -->
+                  <span class="method-name">add_traffic_plan_to_customer1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan_to_customer2">
+                  </a> <!-- add_traffic_plan_to_customer2 -->
+                  <span class="method-name">add_traffic_plan_to_customer2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_traffic_plan_to_customer3">
+                  </a> <!-- add_traffic_plan_to_customer3 -->
+                  <span class="method-name">add_traffic_plan_to_customer3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adsremove">
+                  </a> <!-- adsremove -->
+                  <span class="method-name">adsremove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openguru99_telecom">
+                  </a> <!-- openguru99_telecom -->
+                  <span class="method-name">openguru99_telecom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pay_billing">
+                  </a> <!-- pay_billing -->
+                  <span class="method-name">pay_billing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pay_billing1">
+                  </a> <!-- pay_billing1 -->
+                  <span class="method-name">pay_billing1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pay_billing2">
+                  </a> <!-- pay_billing2 -->
+                  <span class="method-name">pay_billing2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="siteDetails">
+                  </a> <!-- siteDetails -->
+                  <span class="method-name">siteDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ARUNA\AppData\Local\Temp\testng-eclipse-1995996659\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testng.Guru99_Telecom&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'siteDetails')
+data.setCell(0, 2, 'testng.Guru99_Telecom')
+data.setCell(0, 3, 23269);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'add_customer1')
+data.setCell(1, 2, 'testng.Guru99_Telecom')
+data.setCell(1, 3, 15818);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'add_traffic_plan1')
+data.setCell(2, 2, 'testng.Guru99_Telecom')
+data.setCell(2, 3, 14760);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'add_traffic_plan_to_customer2')
+data.setCell(3, 2, 'testng.Guru99_Telecom')
+data.setCell(3, 3, 8814);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'pay_billing1')
+data.setCell(4, 2, 'testng.Guru99_Telecom')
+data.setCell(4, 3, 6542);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'openguru99_telecom')
+data.setCell(5, 2, 'testng.Guru99_Telecom')
+data.setCell(5, 3, 5615);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'add_traffic_plan_to_customer1')
+data.setCell(6, 2, 'testng.Guru99_Telecom')
+data.setCell(6, 3, 4347);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'add_traffic_plan')
+data.setCell(7, 2, 'testng.Guru99_Telecom')
+data.setCell(7, 3, 4123);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'pay_billing2')
+data.setCell(8, 2, 'testng.Guru99_Telecom')
+data.setCell(8, 3, 3164);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'pay_billing')
+data.setCell(9, 2, 'testng.Guru99_Telecom')
+data.setCell(9, 3, 2921);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'add_customer3')
+data.setCell(10, 2, 'testng.Guru99_Telecom')
+data.setCell(10, 3, 2750);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'add_traffic_plan_to_customer')
+data.setCell(11, 2, 'testng.Guru99_Telecom')
+data.setCell(11, 3, 2677);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'add_traffic_plan_to_customer3')
+data.setCell(12, 2, 'testng.Guru99_Telecom')
+data.setCell(12, 3, 2040);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'add_traffic_plan2')
+data.setCell(13, 2, 'testng.Guru99_Telecom')
+data.setCell(13, 3, 1917);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'add_customer2')
+data.setCell(14, 2, 'testng.Guru99_Telecom')
+data.setCell(14, 3, 1771);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'add_customer')
+data.setCell(15, 2, 'testng.Guru99_Telecom')
+data.setCell(15, 3, 1159);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'adsremove')
+data.setCell(16, 2, 'testng.Guru99_Telecom')
+data.setCell(16, 3, 238);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.Guru99_Telecom</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">openguru99_telecom</span>
+                <span class="method-start">2675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_customer</span>
+                <span class="method-start">8298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adsremove</span>
+                <span class="method-start">9465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_customer1</span>
+                <span class="method-start">9708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_customer2</span>
+                <span class="method-start">25528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_customer3</span>
+                <span class="method-start">27306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan_to_customer</span>
+                <span class="method-start">30059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan_to_customer1</span>
+                <span class="method-start">32740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan_to_customer2</span>
+                <span class="method-start">37091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan_to_customer3</span>
+                <span class="method-start">45913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan</span>
+                <span class="method-start">47957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan1</span>
+                <span class="method-start">52083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add_traffic_plan2</span>
+                <span class="method-start">66845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pay_billing</span>
+                <span class="method-start">68766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pay_billing1</span>
+                <span class="method-start">71694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pay_billing2</span>
+                <span class="method-start">78242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">siteDetails</span>
+                <span class="method-start">81409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">104782 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

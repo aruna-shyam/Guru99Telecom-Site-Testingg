@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T10:42:31 IST" name="Default suite" finished-at="2023-09-21T10:44:14 IST" duration-ms="102084">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T10:42:31 IST" name="Default test" finished-at="2023-09-21T10:44:14 IST" duration-ms="102084">
+      <class name="testng.Guru99_Telecom">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:29 IST" name="launchbrowser" finished-at="2023-09-21T10:42:31 IST" duration-ms="2594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="openguru99_telecom()[pri:0, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:32 IST" name="openguru99_telecom" finished-at="2023-09-21T10:42:37 IST" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openguru99_telecom -->
+        <test-method signature="add_customer()[pri:1, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:37 IST" name="add_customer" finished-at="2023-09-21T10:42:38 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_customer -->
+        <test-method signature="adsremove()[pri:2, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:38 IST" name="adsremove" finished-at="2023-09-21T10:42:39 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adsremove -->
+        <test-method signature="add_customer1()[pri:3, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:39 IST" name="add_customer1" finished-at="2023-09-21T10:42:54 IST" duration-ms="15818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_customer1 -->
+        <test-method signature="add_customer2()[pri:4, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:54 IST" name="add_customer2" finished-at="2023-09-21T10:42:56 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_customer2 -->
+        <test-method signature="add_customer3()[pri:5, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:56 IST" name="add_customer3" finished-at="2023-09-21T10:42:59 IST" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_customer3 -->
+        <test-method signature="add_traffic_plan_to_customer()[pri:6, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:42:59 IST" name="add_traffic_plan_to_customer" finished-at="2023-09-21T10:43:02 IST" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan_to_customer -->
+        <test-method signature="add_traffic_plan_to_customer1()[pri:7, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:02 IST" name="add_traffic_plan_to_customer1" finished-at="2023-09-21T10:43:06 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan_to_customer1 -->
+        <test-method signature="add_traffic_plan_to_customer2()[pri:8, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:06 IST" name="add_traffic_plan_to_customer2" finished-at="2023-09-21T10:43:15 IST" duration-ms="8814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan_to_customer2 -->
+        <test-method signature="add_traffic_plan_to_customer3()[pri:9, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:15 IST" name="add_traffic_plan_to_customer3" finished-at="2023-09-21T10:43:17 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan_to_customer3 -->
+        <test-method signature="add_traffic_plan()[pri:10, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:17 IST" name="add_traffic_plan" finished-at="2023-09-21T10:43:21 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan -->
+        <test-method signature="add_traffic_plan1()[pri:11, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:21 IST" name="add_traffic_plan1" finished-at="2023-09-21T10:43:36 IST" duration-ms="14760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan1 -->
+        <test-method signature="add_traffic_plan2()[pri:12, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:36 IST" name="add_traffic_plan2" finished-at="2023-09-21T10:43:38 IST" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_traffic_plan2 -->
+        <test-method signature="pay_billing()[pri:13, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:38 IST" name="pay_billing" finished-at="2023-09-21T10:43:41 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pay_billing -->
+        <test-method signature="pay_billing1()[pri:14, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:41 IST" name="pay_billing1" finished-at="2023-09-21T10:43:47 IST" duration-ms="6542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pay_billing1 -->
+        <test-method signature="pay_billing2()[pri:15, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:47 IST" name="pay_billing2" finished-at="2023-09-21T10:43:50 IST" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pay_billing2 -->
+        <test-method signature="siteDetails()[pri:16, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:43:50 IST" name="siteDetails" finished-at="2023-09-21T10:44:14 IST" duration-ms="23269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteDetails -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testng.Guru99_Telecom@75d3a5e0]" started-at="2023-09-21T10:44:14 IST" name="closebrowser" finished-at="2023-09-21T10:44:14 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testng.Guru99_Telecom -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
